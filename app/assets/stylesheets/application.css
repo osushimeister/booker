@@ -23,12 +23,23 @@ body{
    margin: 33px;
 }
 
+thead{
+   vertical-align: middle;
+   display: table-header-group;
+}
+
+tbody{
+   vertical-align: middle;
+   display: table-row-group;
+}
+
 table{
    display: table;
    border-collapse: separate;
    box-sizing: border-box;
    text-indent: initial;
    border-spacing: 2px;
+   padding-bottom: 10px;
 }
 
 p{
