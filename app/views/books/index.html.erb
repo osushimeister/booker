@@ -1,2 +1,17 @@
-<h1>Books#index</h1>
-<p>Find me in app/views/books/index.html.erb</p>
+<h1>Books</h1>
+
+<h2>New book</h2>
+
+<div class="submit_box">
+   <%= form_with model: @book, url: '/books', method: :post do |f| %>
+  <div class="submit_label">Title</div>
+  <%= f.text_field :title %>
+
+  <div class="submit_label">Body</div>
+  <%= f.text_area :body %>
+
+  <div class="submit_buttom">
+  <%= f.submit 'Create Book' %>
+  </div>
+<% end %>
+</div>
