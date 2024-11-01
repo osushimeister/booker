@@ -1,4 +1,21 @@
 <h1>Books</h1>
+   <table class="books_table">
+      <thead>
+         <tr>
+            <th class="table_header">Title</th>
+            <th class="table_header">Body</th>
+         </tr>
+      </thead>
+      <tbody>
+         <% @books.each do |book| %>
+            <tr>
+               <td><%= book.title %></td>
+               <td><%= book.body %></td>
+            </tr>
+         <% end %>
+      </tbody>
+   </table>
+
 
 <h2>New book</h2>
 
