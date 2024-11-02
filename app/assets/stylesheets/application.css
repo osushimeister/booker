@@ -35,10 +35,8 @@ tbody{
 
 table{
    display: table;
-   border-collapse: separate;
    box-sizing: border-box;
    text-indent: initial;
-   border-spacing: 2px;
    padding-bottom: 10px;
 }
 
@@ -46,6 +44,15 @@ p{
    font-size: 13px;
    line-height: 18px;
    margin: 33px;
+}
+
+th{
+   padding-bottom: 10px;
+}
+
+td{
+   padding-right: 10px;
+   padding-bottom: 10px;
 }
 
 .submit_box{
@@ -58,4 +65,11 @@ p{
 
 .submit_label{
    margin-top: 10px;
+}
+
+.flash{
+   font-size: 13px;
+   line-height: 18px;
+   margin: 33px;
+   color: #008000;
 }
